@@ -74,8 +74,8 @@
 如果你从远端克隆（以你的仓库地址为准）：
 
 ```bash
-git clone <your_repo_url>
-cd <repo_root>
+git clone https://github.com/JYZ0117/oakvio-windows_with_traj_demo.git
+cd .\oakchina-vio-windows_with_traj_demo\oakchina-vio-windows
 ```
 
 ### 2. 使用 CMake 构建
@@ -155,7 +155,7 @@ cmake --build . --config Release
 解决：
 
 * 把 exe 复制到 `carina_vio.dll` 同目录；或
-* 将 DLL 所在目录加入 `PATH` 环境变量。
+* 将 DLL 所在目录加入 `PATH` 环境变量。（例：set PATH=%PATH%;D:\research\...\oakchina-vio-windows\lib #换成自己的lib路径）
 
 ---
 
