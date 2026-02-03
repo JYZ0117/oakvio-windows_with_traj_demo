@@ -1,3 +1,19 @@
-# *.o
-.vscode
+# build outputs
 build/
+out/
+
+# Visual Studio
+.vs/
+*.VC.db
+*.suo
+*.user
+
+# CMake generated
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.cmake
+
+# temp
+*.log
+
