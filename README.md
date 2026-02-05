@@ -116,13 +116,13 @@ cmake --build . --config Release
 将 `oakchina_vio_traj_demo.exe` 复制到动态库同一目录后运行：
 
 ```bash
-.\oakchina_vio_traj_demo ..\custom_config.yaml ..\database.bin
+.\oakchina_vio_traj_demo .\custom_config.yaml .\database.bin
 ```
 
 可选第三参数：是否显示图像窗口 `image_show=0/1`（默认 1）：
 
 ```bash
-.\oakchina_vio_traj_demo ..\custom_config.yaml ..\database.bin 1
+.\oakchina_vio_traj_demo .\custom_config.yaml .\database.bin 1
 ```
 
 ---
