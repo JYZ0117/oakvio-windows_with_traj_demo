@@ -75,7 +75,6 @@
 
 ```bash
 git clone https://github.com/JYZ0117/oakvio-windows_with_traj_demo.git
-cd .\oakchina-vio-windows_with_traj_demo\oakchina-vio-windows
 ```
 
 ### 2. 使用 CMake 构建
@@ -106,7 +105,7 @@ cmake --build . --config Release
 将 `oakchina_vio_demo.exe` 复制到动态库同一目录后运行：
 
 ```bash
-.\oakchina_vio_demo ..\custom_config.yaml ..\database.bin
+.\oakchina_vio_demo .\custom_config.yaml .\database.bin
 ```
 
 ---
